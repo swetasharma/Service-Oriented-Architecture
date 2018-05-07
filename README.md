@@ -24,6 +24,81 @@ The desktop appications are run and are stored locally on your computer, whereas
 Web applications are platform indepwendent, meaning that the application will run on any operating syetem, provided that a compatible web browser is installed. web applicaiton almost always require users to have internet access because information is communicated over HTTP
 
 
+Static web page: Web browser | Web server | HTML Documents
+Dynamic web page : Web Browser | Web server | Application Server | Database.
+
+
+
+
+HTTP:(Hypertext transport protocol)
+Universal Resource Identifiers:
+All URLs are URIs, but not all URIs are URLs.
+
+
+HttP was designed to facilitate the use of hypertext and to support the communication of documents and resources expressed in HTML. Now of course we use hyperlinks to link otgretehr multimedai resources such as images, videos , GIF's texts, and audio or documensts caontianing any combination of these.
+
+
+HTTP is built on top of another protocol called the transmission control protocol TCP. 
+HTTP messages are sent and received through TCP ports. 
+
+when your browser accesses a URI that starts wITH HTTP, A connection between your web browser and a web server is opened on TCP port 80, the default port for HTTP messages.
+
+HTTP is built upon a client/server design. when a client makes a request to a server, this opens a TCP connection between the client and server for them to communicate.
+
+
+Below information must be included in every HTTP request from a client:
+
+Accept Header(This tells ther server what kind of content will be accepted as a response. This could  be HTML for example, or JSON) and Host Header(this contains a domain name or an IP address)
+
+We need to learn about URL-encoding. HTTP limits the characters used in URIs, request queries and request bodies to be ASCII. Special or unsafe characters, like space or unicode, require you to encide these characters.
+
+space is a special case in that there are two ways to encode it We can encode a space using the percent sign followed by 20 or a plus sign.
+
+
+What it means for HTTP to be stateless and consequences of statelessness:
+It means that the relationship between requests is not perserved. For exxample, if you are browsing an online shopping website and cllicking on items, the HTTP protocol does not keep track of which items you have previously clicked.
+A website can use HTTP cookies to track the behavior of shoppers on their site. 
+The first time a client makes a request, the site gives them an HTTP cookie to store informaiton about the clients browsing session. The cooie is stored by the cllient and uopdated by the server each time the client makes a request  to the server.This allows a server to store state information about interactions with this client, which can be useful for tracking purposes. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
