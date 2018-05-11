@@ -71,6 +71,14 @@ It is used in Distributed applications by using HTTP to send messgaes to communi
 1. REST is a client-server architecture. (allows development of client and the server to occur independemtly of each other )
 2. REST is a layered system.
 3. Interaction must be stateless.(server does not save information about the current client state or previous request made by the client each request is independent of each other and must contain all  necessary information for the server to understand and respond to the request. This constraint improves performance of web servcies becuase the server does not have to store any information about the current states of clients in the system. example if authentication is needed by server for a client to have access to data, the client must send that authentication information in every request).
+4. clients can cache.(the clients can keep a local copy of a sever response to user for later requests ).
+5. Uniform Interface: (there is a uniform interface for communication between client and server)
+cache-control: if the information should be cached on the client's side
+
+REST uses a client-server architecture with layers where interactions are stateless, responses are cacheable and a uniform interface is used for communications.
+
+REST provides benefits including high scalability, reusability and loose coupling that allow it to meet the needs of modern applications with million of users.
+
 
 
 
