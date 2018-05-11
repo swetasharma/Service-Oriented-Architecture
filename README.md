@@ -62,6 +62,28 @@ The first time a client makes a request, the site gives them an HTTP cookie to s
 
 
 
+Remote Procedure Call:
+
+
+REST (Representational state transfer):
+
+It is used in Distributed applications by using HTTP to send messgaes to communicate between components.In the moste basoc terms, REST is a client server architecture based on request reponse design. Aspecific feature of REST is that communication is resource based. REST has five constraints:
+1. REST is a client-server architecture. (allows development of client and the server to occur independemtly of each other )
+2. REST is a layered system.
+3. Interaction must be stateless.(server does not save information about the current client state or previous request made by the client each request is independent of each other and must contain all  necessary information for the server to understand and respond to the request. This constraint improves performance of web servcies becuase the server does not have to store any information about the current states of clients in the system. example if authentication is needed by server for a client to have access to data, the client must send that authentication information in every request).
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
